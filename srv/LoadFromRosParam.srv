@@ -1,0 +1,15 @@
+##############################################################################
+# Specify configuration loading from the ros param server.
+##############################################################################
+
+# unique identifier for this configuration
+uuid_msgs/UniqueID unique_identifier
+
+# namespace under which the relevant configuration can be found
+
+string namespace
+
+---
+
+bool result
+string message

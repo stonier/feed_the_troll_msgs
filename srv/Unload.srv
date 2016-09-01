@@ -1,0 +1,9 @@
+# Unload a previously loaded configuration
+
+# unique identifier for the configuration to unload
+uuid_msgs/UniqueID unique_identifier
+
+---
+
+bool result
+string message

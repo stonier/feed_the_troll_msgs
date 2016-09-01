@@ -1,0 +1,28 @@
+<package>
+  <name>feed_the_troll_msgs</name>
+  <version>0.1.0</version>
+  <description>
+    Messages used to feed the trolls.
+  </description>
+
+  <license>MIT</license>
+
+  <url type="website">http://www.ros.org/wiki/feed_the_troll_msgs</url>
+  <url type="repository">https://github.com/stonier/feed_the_troll_msgs</url>
+  <url type="bugtracker">https://github.com/stonier/feed_the_troll_msgs/issues</url>
+
+  <maintainer email="d.stonier@gmail.com">Daniel Stonier</maintainer>
+  <author>Daniel Stonier</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend>message_generation</build_depend>
+  <build_depend>uuid_msgs</build_depend>
+
+  <run_depend>message_runtime</run_depend>
+  <run_depend>uuid_msgs</run_depend>
+
+  <export>
+    <architecture_independent/>
+  </export>
+</package>

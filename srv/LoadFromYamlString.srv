@@ -1,0 +1,19 @@
+##############################################################################
+# Specify configuration loading from a yaml string
+##############################################################################
+
+# unique identifier for this configuration
+uuid_msgs/UniqueID unique_identifier
+
+# Yaml configuration in string form.
+#
+#  - this is preferable to a filename, since that file could be on another machine
+#  - this is sometimes more flexible than rosparams since yaml > rosparam
+#
+
+string yaml
+
+---
+
+bool result
+string message
